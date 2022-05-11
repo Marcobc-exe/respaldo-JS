@@ -67,4 +67,6 @@ function condicionales () {
 
 // condicionales()
 console.log("Hola mundo")
-console.log("Hola marcoDesk")
+for (let i = 0; i <= 5; i++) {
+    console.log("Hola marcoDesk")
+}
