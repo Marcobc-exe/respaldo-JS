@@ -66,3 +66,4 @@ function condicionales () {
 }
 
 // condicionales()
+console.log("Hola mundo")
