@@ -100,6 +100,8 @@ while (numero < 1000) {
 let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 let fruitsName = ["Apple", "Orange", "Strawberry", "Pinapple", "Tomato", "Banana"]
 
+// ? Funciones 
+
 // * for of recolecta la info del array
 function collectingIndices () {
     for ( fruits of fruitsName ) {
