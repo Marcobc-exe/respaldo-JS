@@ -119,11 +119,42 @@ function collectingContent () {
 // collectingContent()
 // collectingIndices()
 
-function saludar () {
-    console.log("Holaaaa")
-    return "La función se ejecutó correctamente."
+// function saludar (nombre) {
+//     let saludo = `Holaa ${nombre}`
+//     return saludo
+// }
+
+// const saludar = (nombre) => {
+//     let saludo = `Hola ${nombre} como estas?`
+//     return saludo
+// }
+
+// let saludo = saludar("pepeeeee")
+
+// console.log(saludo)
+
+const saludar = nombre => console.log(`Hola ${nombre} que hay?`)
+
+// let hola = saludar("Pepito")
+
+// ? clases en Javascript
+
+class animal {
+    
+    constructor(especie, edad, color) {
+        this.especie = especie
+        this.edad = edad
+        this.color = color
+        this.info = `Soy un ${this.especie}, tengo ${this.edad} años y soy de color ${this.color}`
+    }
+
+    verInfo() {
+        console.log(this.info)
+    }
 }
 
-let saludo = saludar()
+let perro = new animal("perro", 2, "cafe")
+let gato = new animal("gato", 3, "blanco")
 
-console.log(saludo)
+perro.verInfo()
+gato.verInfo()
