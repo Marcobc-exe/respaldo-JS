@@ -156,5 +156,38 @@ class animal {
 let perro = new animal("perro", 2, "cafe")
 let gato = new animal("gato", 3, "blanco")
 
-perro.verInfo()
-gato.verInfo()
+// perro.verInfo()
+// gato.verInfo()
+
+// ? Métodos de cadenas
+
+// let cadena = "cadena de prueba prueba prueba prueba prueba";
+// let cadena = "abc ";
+let cadena = "  hola  ";
+let numero = 234
+let cadena2 = " ";
+
+let resultado = cadena.concat(cadena2) // une cadenas
+let resultado2 = cadena.startsWith(cadena2) // (boolean)
+let resultado3 = cadena.endsWith(cadena2) // (boolean)
+let resultado4 = cadena.includes(cadena2) // (boolean), pregunta si esta cadena de caracteres se encuentra dentro de la otra
+
+// IndexOf = (integer), retorna la posición en donde se encuentrea 'p' en la cadena (10), 
+// si devuelve un -1 es porque no encontro la cadena
+let resultado5 = cadena.indexOf("prueba") 
+let resultado6 = cadena.lastIndexOf("prueba") 
+let resultado7 = cadena.padStart(50, "tarado") // agrega al inicio el dato una cantidad de veces (50)
+let resultado8 = cadena.padEnd(50, "tarado") // agrega al fianl el dato una cantidad de veces (50)
+let resultado9 = cadena.repeat(5)
+let resultado10 = cadena.split(" ") // separa y crea una array de la cadena por el 'espacio'
+let resultado11 = cadena.substring(0, 19)
+let resultado12 = cadena.toLowerCase()
+let resultado13 = cadena.toUpperCase()
+let resultado14 = numero.toString()
+// console.log(2 + resultado14)
+let resultado15 = cadena.trim()
+// let resultado16 = cadena.
+// let resultado17 = cadena.
+// let resultado18 = cadena.
+
+console.log(resultado15)
