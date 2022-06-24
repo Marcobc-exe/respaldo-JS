@@ -20,11 +20,11 @@ frase = `Soy ${name} y estoy estudiando JS`
 // document.write(frase);
 
 title = `
-    <h2>Hello world!</h2>
-    <p>este es un texto de prueba.</p>
+<h2>Hello world!</h2>
+<p>este es un texto de prueba.</p>
 `;
- */
-//document.write(title)
+*/
+// document.write(title)
 
 /* let num1 = 20;
 let num2 = 3; */
@@ -73,15 +73,15 @@ const pc = {
     almacenamiento: "1TB"
 }
 
-let nombre = pc["nombre"]
-let cpu = pc["cpu"]
-let ram = pc["ram"]
-let gpu = pc["gpu"]
+// let nombre = pc["nombre"]
+// let cpu = pc["cpu"]
+// let ram = pc["ram"]
+// let gpu = pc["gpu"]
 
-let descripcion = `El nombre de mi pc: ${nombre}
-RAM: ${ram}
-CPU: ${cpu}
-GPU: ${gpu}`;
+// let descripcion = `El nombre de mi pc: ${nombre}
+// RAM: ${ram}
+// CPU: ${cpu}
+// GPU: ${gpu}`;
 
 // ? bucles for, while, do while y +
 
@@ -181,13 +181,24 @@ let resultado8 = cadena.padEnd(50, "tarado") // agrega al fianl el dato una cant
 let resultado9 = cadena.repeat(5)
 let resultado10 = cadena.split(" ") // separa y crea una array de la cadena por el 'espacio'
 let resultado11 = cadena.substring(0, 19)
-let resultado12 = cadena.toLowerCase()
-let resultado13 = cadena.toUpperCase()
-let resultado14 = numero.toString()
-// console.log(2 + resultado14)
-let resultado15 = cadena.trim()
-// let resultado16 = cadena.
-// let resultado17 = cadena.
-// let resultado18 = cadena.
+let resultado12 = cadena.toLowerCase() // Transforma toda la cadena a minusculas
+let resultado13 = cadena.toUpperCase() // Transforma toda la cadena a mayusculas
+let resultado14 = numero.toString() // lo Transforma a String
+let resultado15 = cadena.trim() // Elimina los espacios
+let resultado16 = cadena.trimEnd() // Elimina los espacios del final
+let resultado17 = cadena.trimStart() // Elimina los espacios del principio
 
-console.log(resultado15)
+// document.write(resultado14)
+
+// ? Métodos de Arrays
+
+let nombres = [ "Pepe", "Pelusa", "Marco", "Juanin" ];
+
+let out1 = nombres.pop() // Elimina el último elemento de un array y lo retorna 
+let out2 = nombres.shift() // Elimina el primer elemento de un array y lo retorna 
+
+// Agrega un elemento al array al final de la lista y 
+// retorna la nueva cantidad ("Integer") de elementos que tiene la array
+let out3 = nombres.push("Elizabeth", "uwu")
+
+document.write(out3)

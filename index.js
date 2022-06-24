@@ -1,3 +1,5 @@
+// Archivo sobre asincronias en JavaScript
+
 const doAsyncStuffWithCallback = (num1, num2, callback) =>{
     const result = num1 + num2;
     return setTimeout(() => {
