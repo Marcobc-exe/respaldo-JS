@@ -42,8 +42,8 @@ let num2 = 3; */
     document.write(`\n${number}`)
 } */
 
-let valor1 = true;
-let valor2 = false;
+// let valor1 = true;
+// let valor2 = false;
 
 // let resultado = valor1 && valor2
 
@@ -53,25 +53,25 @@ let valor2 = false;
 // ? Condicionales If else 
 
 // nombre = "bravo";
-function condicionales () {
-    if(nombre == "marco"){
-        alert(`Tu nombre es ${nombre}`)
-    } else if (nombre == "bravo"){
-        alert(`Tu nombre es ${nombre}`)
-    } else {
-        alert(`Como cresta te llamai?`)
-    }
-}
+// function condicionales () {
+//     if(nombre == "marco"){
+//         alert(`Tu nombre es ${nombre}`)
+//     } else if (nombre == "bravo"){
+//         alert(`Tu nombre es ${nombre}`)
+//     } else {
+//         alert(`Como cresta te llamai?`)
+//     }
+// }
 
-// condicionales()
+// // condicionales()
 
-const pc = {
-    nombre: "marco@dev",
-    cpu: "Ryzen 5 2600",
-    ram: "16GB 3200Mhz",
-    gpu: "Radeon RX 470 4GB",
-    almacenamiento: "1TB"
-}
+// const pc = {
+//     nombre: "marco@dev",
+//     cpu: "Ryzen 5 2600",
+//     ram: "16GB 3200Mhz",
+//     gpu: "Radeon RX 470 4GB",
+//     almacenamiento: "1TB"
+// }
 
 // let nombre = pc["nombre"]
 // let cpu = pc["cpu"]
@@ -97,24 +97,24 @@ while (numero < 1000) {
     if (numero != 100) console.log(numero);
     numero++ 
 } */
-let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-let fruitsName = ["Apple", "Orange", "Strawberry", "Pinapple", "Tomato", "Banana"]
+// let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+// let fruitsName = ["Apple", "Orange", "Strawberry", "Pinapple", "Tomato", "Banana"]
 
 // ? Funciones 
 
 // * for of recolecta la info del array
-function collectingIndices () {
-    for ( fruits of fruitsName ) {
-        console.log(fruits)
-    }
-}
+// function collectingIndices () {
+//     for ( fruits of fruitsName ) {
+//         console.log(fruits)
+//     }
+// }
 
-// * for in recolecta los indices del array
-function collectingContent () {
-    for ( fruits in fruitsName ) {
-        console.log(fruits)
-    }
-}
+// // * for in recolecta los indices del array
+// function collectingContent () {
+//     for ( fruits in fruitsName ) {
+//         console.log(fruits)
+//     }
+// }
 
 // collectingContent()
 // collectingIndices()
@@ -133,28 +133,28 @@ function collectingContent () {
 
 // console.log(saludo)
 
-const saludar = nombre => console.log(`Hola ${nombre} que hay?`)
+// const saludar = nombre => console.log(`Hola ${nombre} que hay?`)
 
 // let hola = saludar("Pepito")
 
 // ? clases en Javascript
 
-class animal {
+// class animal {
     
-    constructor(especie, edad, color) {
-        this.especie = especie
-        this.edad = edad
-        this.color = color
-        this.info = `Soy un ${this.especie}, tengo ${this.edad} años y soy de color ${this.color}`
-    }
+//     constructor(especie, edad, color) {
+//         this.especie = especie
+//         this.edad = edad
+//         this.color = color
+//         this.info = `Soy un ${this.especie}, tengo ${this.edad} años y soy de color ${this.color}`
+//     }
 
-    verInfo() {
-        console.log(this.info)
-    }
-}
+//     verInfo() {
+//         console.log(this.info)
+//     }
+// }
 
-let perro = new animal("perro", 2, "cafe")
-let gato = new animal("gato", 3, "blanco")
+// let perro = new animal("perro", 2, "cafe")
+// let gato = new animal("gato", 3, "blanco")
 
 // perro.verInfo()
 // gato.verInfo()
@@ -163,42 +163,74 @@ let gato = new animal("gato", 3, "blanco")
 
 // let cadena = "cadena de prueba prueba prueba prueba prueba";
 // let cadena = "abc ";
-let cadena = "  hola  ";
-let numero = 234
-let cadena2 = " ";
+// let cadena = "  hola  ";
+// let numero = 234
+// let cadena2 = " ";
 
-let resultado = cadena.concat(cadena2) // une cadenas
-let resultado2 = cadena.startsWith(cadena2) // (boolean)
-let resultado3 = cadena.endsWith(cadena2) // (boolean)
-let resultado4 = cadena.includes(cadena2) // (boolean), pregunta si esta cadena de caracteres se encuentra dentro de la otra
+// let resultado = cadena.concat(cadena2) // une cadenas
+// let resultado2 = cadena.startsWith(cadena2) // (boolean)
+// let resultado3 = cadena.endsWith(cadena2) // (boolean)
+// let resultado4 = cadena.includes(cadena2) // (boolean), pregunta si esta cadena de caracteres se encuentra dentro de la otra
 
-// IndexOf = (integer), retorna la posición en donde se encuentrea 'p' en la cadena (10), 
-// si devuelve un -1 es porque no encontro la cadena
-let resultado5 = cadena.indexOf("prueba") 
-let resultado6 = cadena.lastIndexOf("prueba") 
-let resultado7 = cadena.padStart(50, "tarado") // agrega al inicio el dato una cantidad de veces (50)
-let resultado8 = cadena.padEnd(50, "tarado") // agrega al fianl el dato una cantidad de veces (50)
-let resultado9 = cadena.repeat(5)
-let resultado10 = cadena.split(" ") // separa y crea una array de la cadena por el 'espacio'
-let resultado11 = cadena.substring(0, 19)
-let resultado12 = cadena.toLowerCase() // Transforma toda la cadena a minusculas
-let resultado13 = cadena.toUpperCase() // Transforma toda la cadena a mayusculas
-let resultado14 = numero.toString() // lo Transforma a String
-let resultado15 = cadena.trim() // Elimina los espacios
-let resultado16 = cadena.trimEnd() // Elimina los espacios del final
-let resultado17 = cadena.trimStart() // Elimina los espacios del principio
+// // IndexOf = (integer), retorna la posición en donde se encuentrea 'p' en la cadena (10), 
+// // si devuelve un -1 es porque no encontro la cadena
+// let resultado5 = cadena.indexOf("prueba") 
+// let resultado6 = cadena.lastIndexOf("prueba") 
+// let resultado7 = cadena.padStart(50, "tarado") // agrega al inicio el dato una cantidad de veces (50)
+// let resultado8 = cadena.padEnd(50, "tarado") // agrega al fianl el dato una cantidad de veces (50)
+// let resultado9 = cadena.repeat(5)
+// let resultado10 = cadena.split(" ") // separa y crea una array de la cadena por el 'espacio'
+// let resultado11 = cadena.substring(0, 19)
+// let resultado12 = cadena.toLowerCase() // Transforma toda la cadena a minusculas
+// let resultado13 = cadena.toUpperCase() // Transforma toda la cadena a mayusculas
+// let resultado14 = numero.toString() // lo Transforma a String
+// let resultado15 = cadena.trim() // Elimina los espacios
+// let resultado16 = cadena.trimEnd() // Elimina los espacios del final
+// let resultado17 = cadena.trimStart() // Elimina los espacios del principio
 
 // document.write(resultado14)
 
 // ? Métodos de Arrays
+// ! Transformadores
 
-let nombres = [ "Pepe", "Pelusa", "Marco", "Juanin" ];
+// let nombres = [ "Pepe", "Pelusa", "Marco", "Juanin", "Lucho", "Daniel" ];
+// let number = [ 1, 5, 7, 6, 2, 3, 4 ]
 
-let out1 = nombres.pop() // Elimina el último elemento de un array y lo retorna 
-let out2 = nombres.shift() // Elimina el primer elemento de un array y lo retorna 
+// let out1 = nombres.pop() // Elimina el último elemento de un array y lo retorna 
+// let out2 = nombres.shift() // Elimina el primer elemento de un array y lo retorna 
 
 // Agrega un elemento al array al final de la lista y 
 // retorna la nueva cantidad ("Integer") de elementos que tiene la array
-let out3 = nombres.push("Elizabeth", "uwu")
+// let out3 = nombres.push("Elizabeth", "Emilia")
+// let out4 = nombres.reverse()
+// let out5 = nombres.unshift() // Agrega elementos al inicio 
+// let out6 = number.sort() // ordena la arrays de manera numerica o alfabeticamente
+// let out7 = nombres.splice(2,4) // cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos
 
-document.write(out3)
+// document.write(out7)
+
+// ! Accesores
+
+// let out8 = number.join(" - ") // Une los elementos de un array en una cadena y la retorna
+// let out9 = number.slice(0,-1) // Retorna una parte de la array, desde inicio a fin
+
+// ! Repetidores
+
+// Es una funcion flecha!!
+// nombres.filter(name => document.write(name + "<br>"))
+// resultado = nombres.filter(num => num.length > 5)
+
+// document.write(resultado)
+
+// ? FIN Métodos de Arrays
+
+// console.log("Hola Emilia")
+
+// console.assert(5 < 2) // Se muestra un msn de error en consola sí la info es false
+// console.clear() // para limpiar la consola
+// console.error("Error en el código")
+// console.info("mensaje de información.com") // msn de informacion
+// console.log("hola") // msn de depuracion
+console.count()
+console.countReset()
+console.count()
