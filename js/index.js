@@ -206,6 +206,7 @@ while (numero < 1000) {
 // let out5 = nombres.unshift() // Agrega elementos al inicio 
 // let out6 = number.sort() // ordena la arrays de manera numerica o alfabeticamente
 // let out7 = nombres.splice(2,4) // cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos
+// let result = nombres.padEnd(50, " patata ") // imprime la cantidad de indices del primer parametro y agrega el segundo parametro 
 
 // document.write(out7)
 
