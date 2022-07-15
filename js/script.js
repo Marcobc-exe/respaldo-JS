@@ -225,13 +225,88 @@ while (numero < 1000) {
 
 // ? FIN Métodos de Arrays
 
-// console.log("Hola Emilia")
+// ! Métodos Console
 
+// console.log("Hola Emilia")
 // console.assert(5 < 2) // Se muestra un msn de error en consola sí la info es false
 // console.clear() // para limpiar la consola
 // console.error("Error en el código")
 // console.info("mensaje de información.com") // msn de informacion
 // console.log("hola") // msn de depuracion
-console.count()
-console.countReset()
-console.count()
+// console.count()
+// console.countReset()
+// console.count()
+
+// ? FIN Métodos Console
+
+// ? DOM - Document Object Model
+/* 
+    * Node en el DOM
+    Un Nodo en el DOM es cualquier etiqueta del cuerpo, como un párrafo, el body o incluso las etiquetas de una lista.
+    Pero a veces suelen ser otro tipo de elemento.
+
+    * Tipo de Nodes
+    1) Document: Es el nodo raíz, a partir del cual derivan el resto de nodos.
+    2) Element Node: Los nodos definidos como etiquetas HTML.
+    3) Text Node: El texto dentro de un 'element node' se considera un nuevo nodo hijo de tipo 'text node'
+    4) Attribute Node: Los atributos de las etiquetas definen nodos.
+    5) Comentarios y otros: Los comentarios también son nodes.
+
+    * Document - Métodos de selección de elementos
+    document.getElementBy() -> Obtener un elemento ID.
+    document.getElementsByTagName() -> Obtener todos los elementos que coincidan con el nombre de la etiqueta especificada.
+    document.querySelector() -> Devuelve el primer elemento que coincida con el grupo especificado de selectores.
+    document.querySelectorAll() -> Devuelve todos los elementos que coincidan con el grupo especificado de selectores.
+*/
+
+// parrafo = document.getElementById("parrafo")
+// parrafo = document.getElementsByTagName("p")
+// parrafo = document.querySelector(".parrafo")
+// rancio = document.querySelector("#rancio")
+// parrafo = document.querySelectorAll(".parrafo")
+// document.write(parrafo[5])
+// document.write(rancio)
+
+/*
+    * Métodos para definir, obtener y eliminar valores de atributos.
+    variableName.setAttribute() -> Modifica o agrega el valor de un atributo
+    variableName.getAttribute() -> Obtiene el valor de un atributo
+    variableName.removeAttribute() -> Remueve el valor de un atributo
+*/
+
+// const rangoEtario = document.querySelector(".rangoEtario");
+// rangoEtario.setAttribute("type","color")
+// rangoEtario.getAttribute("type")
+// valorAtributo = rangoEtario.removeAttribute("type","")
+
+/* 
+    * Atributos Globales
+    contentEditTable -> Indica sí el elemento puede ser modificable por el usuario
+    dir -> Inidica la direccionalidad del texto - NO ME FUNCIONA
+    hidden -> Oculta un elemento
+    tabindex -> Indica sí el elemento puede obtener un focus de input
+    title -> Contiene un texto con información relacionada al elemento al que pertenece.
+*/
+
+// const titulo = document.querySelector(".titulo")
+
+// titulo.setAttribute("contentEditable", "false") 
+// titulo.setAttribute("hidden", "true")
+// titulo.removeAttribute("hidden")
+// titulo.setAttribute("title", "jajaajaja xD")
+
+/* 
+    * Atributos de Inputs
+    className
+    value
+    type
+    accept
+    form
+    minlenght
+    placeholder
+    required
+*/
+
+
+
+// ? FIN - DOM
