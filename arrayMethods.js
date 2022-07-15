@@ -22,7 +22,7 @@
 // console.log(`${result.length}`)
 // console.log(result)
 
-const names = [ "Emilia", "Marco" ]
+const names = [ "Pepe", "Marco" ]
 newName = [ "Daniel", "Elizabeth", "Pepe" ]
 
 const addNewNames = newName => {
