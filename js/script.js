@@ -273,7 +273,6 @@ while (numero < 1000) {
     variableName.getAttribute() -> Obtiene el valor de un atributo
     variableName.removeAttribute() -> Remueve el valor de un atributo
 */
-
 // const rangoEtario = document.querySelector(".rangoEtario");
 // rangoEtario.setAttribute("type","color")
 // rangoEtario.getAttribute("type")
@@ -290,10 +289,13 @@ while (numero < 1000) {
 
 // const titulo = document.querySelector(".titulo")
 
-// titulo.setAttribute("contentEditable", "false") 
+// titulo.setAttribute("contentEditable", "false")
+// titulo.setAttribute("dir", "ltr") // no funciona
 // titulo.setAttribute("hidden", "true")
-// titulo.removeAttribute("hidden")
-// titulo.setAttribute("title", "jajaajaja xD")
+// titulo.setAttribute("title", "uwuuuu")
+
+// const mostrarTitulo = () => titulo.removeAttribute("hidden")
+// const ocultarTitulo = () => titulo.setAttribute("hidden", "true")
 
 /* 
     * Atributos de Inputs
