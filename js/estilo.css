@@ -10,6 +10,18 @@ h1 {
     padding-top: 25px;
 }
 
-/* button {
+button {
+    background-color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 3px;
+    border: none;
+    font-size: large;
     cursor: pointer;
-} */
+}
+
+.baseBotones {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

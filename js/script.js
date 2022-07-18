@@ -273,6 +273,7 @@ while (numero < 1000) {
     variableName.getAttribute() -> Obtiene el valor de un atributo
     variableName.removeAttribute() -> Remueve el valor de un atributo
 */
+
 // const rangoEtario = document.querySelector(".rangoEtario");
 // rangoEtario.setAttribute("type","color")
 // rangoEtario.getAttribute("type")
@@ -288,6 +289,10 @@ while (numero < 1000) {
 */
 
 // const titulo = document.querySelector(".titulo")
+// const btnMostrar = document.getElementById("btnMostrar")
+// const btnOcultar = document.getElementById("btnOcultar")
+
+// btnMostrar.setAttribute("disabled", "false")
 
 // titulo.setAttribute("contentEditable", "false")
 // titulo.setAttribute("dir", "ltr") // no funciona
@@ -309,6 +314,14 @@ while (numero < 1000) {
     required
 */
 
+const input = document.querySelector(".input-normal")
 
+// document.write(input.className) // mostrando el valor 'class'
+// document.write(input.value) // mostrando el valor
+// document.write(input.type = "range") // mostrando el tipo de input, o cambiandolo
+// input.type = "file"
+// input.accept = "image/png"
+input.minLength = 4
+input.maxLength = 8
 
 // ? FIN - DOM
