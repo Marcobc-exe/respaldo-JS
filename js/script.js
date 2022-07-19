@@ -314,14 +314,46 @@ while (numero < 1000) {
     required
 */
 
-const input = document.querySelector(".input-normal")
+// const input = document.querySelector(".input-normal")
 
 // document.write(input.className) // mostrando el valor 'class'
 // document.write(input.value) // mostrando el valor
 // document.write(input.type = "range") // mostrando el tipo de input, o cambiandolo
 // input.type = "file"
 // input.accept = "image/png"
-input.minLength = 4
-input.maxLength = 8
+// input.minLength = 4
+// input.maxLength = 8
+
+// const titulo = document.querySelector(".titulo")
+
+// titulo.style.backgroundColor = "pink"
+// titulo.style.padding = "30px 20px"
+
+/* 
+    * Clases, classList y métodos de classList
+    Definición y usos
+    add() -> añade una clase en la tag indicada
+    remove() -> remueve una clase
+    item() -> devuelve la clase del indice especificado
+    contains() -> verifica si ese elemento posee o no, la clase especificada.
+    replace() -> reemplaza una clase por otra
+    toggle() -> si no tiene la clase especificada, la agrega, si ya la tiene, la elimina.
+*/
+
+const titulo = document.querySelector(".titulo")
+
+// titulo.classList.add("grande")
+// titulo.classList.remove("grande")
+// let valorItem = titulo.classList.item(0)
+// document.write(valorItem)
+// valorContains = titulo.classList.contains("grande")
+// document.write(valorContains)
+// titulo.classList.replace("grande", "pequeño")
+// titulo.classList.toggle("main")
+
+/* 
+    * Obtención y modificación de elementos en HTML
+
+*/
 
 // ? FIN - DOM
